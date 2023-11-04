@@ -1,9 +1,0 @@
- useEffect(()=>{
-    document.addEventListener('KeyPress',detectKeyPress,true)
-  },[])
-  const detectKeyPress = (e)=>{
-    console.log('clicked key',e.key)
-    if(e.key ===" "){
-      console.log("key clicked")
-    }
-  }
